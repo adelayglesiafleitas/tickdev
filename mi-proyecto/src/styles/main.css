@@ -15,7 +15,10 @@ main {
 }
 
 .container-text {
+  min-height: 100vh;
+  justify-content: center;
   align-items: center;
+  margin-top: 248px;
 }
 
 .container-text p {
@@ -96,4 +99,26 @@ main {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+.container-inter {
+  display: flex;
+  background: linear-gradient(90deg, #6f00b9, #a53de1);
+  border-radius: 8px;
+  color: white;
+  height: 300px;
+  width: 95%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 600px;
+}
+.container-inter p {
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+}
+
+.container-inter_btn {
+  margin: 10px;
 }
