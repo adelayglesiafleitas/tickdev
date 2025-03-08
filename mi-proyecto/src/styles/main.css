@@ -22,7 +22,7 @@ main {
   display: inline-block; /* Hace que el párrafo esté en línea */
   margin: 0;
   text-align: left;
-  font-family: "Roboto", sans-serif; /* Fuente moderna */
+  font-family: "Orbitron", sans-serif; /* Fuente moderna */
   color: #fff; /* Color blanco por defecto */
   text-shadow: 0 0 8px rgba(72, 14, 149, 0.6), 0 0 12px rgba(72, 14, 149, 0.7); /* Sombra de texto sutil */
   letter-spacing: 1px; /* Espaciado entre letras */
@@ -70,11 +70,11 @@ main {
 
 .p-mi {
   font-size: 20px;
-  color: #ff9900; 
+  color: #ff9900;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
-  animation: slideIn 1s ease-in-out; 
+  animation: slideIn 1s ease-in-out;
 }
 
 /* Animaciones */
