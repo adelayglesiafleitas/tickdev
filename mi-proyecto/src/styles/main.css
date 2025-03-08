@@ -1,9 +1,9 @@
 main {
-  background: linear-gradient(
+  /*background: linear-gradient(
     to bottom,
     rgba(72, 14, 149, 1),
     rgba(0, 0, 0, 1)
-  );
+  );*/
   min-height: 100vh;
   color: #fff;
   padding: 20px;

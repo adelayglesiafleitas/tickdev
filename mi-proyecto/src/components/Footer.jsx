@@ -1,8 +1,9 @@
+import "../styles/Footer.css";
 function Footer() {
   return (
-    <>
-      <h1>Footer</h1>
-    </>
+    <footer>
+      <p className="container-text">Footer</p>
+    </footer>
   );
 }
 
