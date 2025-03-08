@@ -114,7 +114,3 @@ header {
   transform: translateY(1px);
 }
 
-@media screen and (max-width: 1024px) {
-  .nav-list {
-  }
-}
