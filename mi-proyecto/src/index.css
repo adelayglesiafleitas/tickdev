@@ -1,0 +1,22 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 100vw; /* 100% del ancho de la ventana */
+  height: 100vh; /* 100% del alto de la ventana */
+  margin: 0; /* Elimina márgenes por defecto */
+  padding: 0; /* Elimina cualquier padding */
+  overflow-x: hidden; /* Evita el scroll horizontal si hay contenido desbordado */
+}

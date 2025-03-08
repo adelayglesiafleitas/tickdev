@@ -1,0 +1,39 @@
+main {
+  background: linear-gradient(
+    to bottom,
+    rgba(72, 14, 149, 1),
+    rgba(0, 0, 0, 1)
+  );
+  min-height: 100vh;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.container-text {
+  /* display: flex
+; */
+  align-items: center;
+  /* flex-direction: column; */
+  /* margin-top: auto;*/
+}
+.container-text p {
+  display: inline-block; /* Hace que el párrafo esté en línea */
+  margin: 0;
+  text-align: left;
+}
+.p-max {
+  font-size: 50px;
+}
+.p-med-1 {
+  font-size: 40px;
+}
+.p-med-2 {
+  font-size: 35px;
+}
+.p-mi {
+  font-size: 20px;
+}

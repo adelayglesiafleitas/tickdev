@@ -1,0 +1,116 @@
+.nav-list li img {
+  width: 50px;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin: 0;
+  background-color: rgb(13, 12, 36);
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.container-header_logos_img {
+  display: flex;
+  height: 60px;
+}
+
+.container-header_logos {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.container-header_logos_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width: 100%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-list li {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: rgb(255, 165, 0); /* Color principal de los enlaces */
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.nav-list li a:hover {
+  color: white; /* Color al pasar el mouse sobre el enlace */
+  text-shadow: 0 0 10px rgb(255, 165, 0), 0 0 20px rgb(255, 165, 0); /* Resplandor naranja */
+  transform: translateY(-3px);
+}
+
+.nav-list li a:active {
+  transform: translateY(1px);
+}
+.futuristic-btn {
+  background: linear-gradient(
+    45deg,
+    rgb(255, 165, 0),
+    rgb(255, 98, 0)
+  ); /* Degradado naranja */
+  border: 2px solid transparent;
+  border-radius: 30px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.futuristic-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(255, 255, 255, 0.15);
+  transition: all 0.5s;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.futuristic-btn:hover::before {
+  width: 0;
+  height: 0;
+}
+
+.futuristic-btn:hover {
+  color: #333;
+  box-shadow: 0 0 10px 4px rgba(255, 165, 0, 0.5); /* Resplandor naranja */
+  transform: translateY(-5px);
+}
+
+.futuristic-btn:active {
+  transform: translateY(1px);
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-list {
+  }
+}
