@@ -13,27 +13,87 @@ main {
   align-items: center;
   justify-content: center;
 }
+
 .container-text {
-  /* display: flex
-; */
   align-items: center;
-  /* flex-direction: column; */
-  /* margin-top: auto;*/
 }
+
 .container-text p {
   display: inline-block; /* Hace que el párrafo esté en línea */
   margin: 0;
   text-align: left;
+  font-family: "Roboto", sans-serif; /* Fuente moderna */
+  color: #fff; /* Color blanco por defecto */
+  text-shadow: 0 0 8px rgba(72, 14, 149, 0.6), 0 0 12px rgba(72, 14, 149, 0.7); /* Sombra de texto sutil */
+  letter-spacing: 1px; /* Espaciado entre letras */
 }
+
+/* Estilos para los diferentes tamaños de texto */
 .p-max {
   font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 165, 0),
+    rgba(255, 0, 0)
+  ); /* Degradado de colores */
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: glowing-text 1.5s ease-in-out infinite alternate; /* Animación de texto brillante */
 }
+
 .p-med-1 {
   font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 0),
+    rgba(255, 165, 0)
+  ); /* Amarillo a naranja */
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: glowing-text 1.5s ease-in-out infinite alternate;
 }
+
 .p-med-2 {
   font-size: 35px;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 255, 255),
+    rgba(0, 165, 255)
+  ); /* Cian a azul */
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: glowing-text 1.5s ease-in-out infinite alternate;
 }
+
 .p-mi {
   font-size: 20px;
+  color: #ff9900; 
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  animation: slideIn 1s ease-in-out; 
+}
+
+/* Animaciones */
+@keyframes glowing-text {
+  0% {
+    text-shadow: 0 0 8px rgba(72, 14, 149, 0.6), 0 0 12px rgba(72, 14, 149, 0.7);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(255, 165, 0, 1), 0 0 40px rgba(255, 165, 0, 0.8);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
